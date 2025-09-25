@@ -1,13 +1,13 @@
 // let vs const
-let age = 49;
-const name = "Chris";
-console.log(name, age);
+let people = 2;
+const house = ["Chris","Debby"];
+console.log(house, people);
 
 // strings and numbers
-let greeting = "Hello" + name;
-let nextYear = age + 1;
+let greeting = "Hello" + house;
+let nextYear = people;
 console.log(greeting);
-console.log("next year i will be ", nextYear);
+console.log("how many people live in the house? ", "there is"+ people, + house );
 
 // Arrays
 let bikes = ["mukluk", "Fargo", "marrakesh"];
